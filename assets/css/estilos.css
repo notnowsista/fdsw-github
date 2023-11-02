@@ -2,6 +2,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.navbar img{
+  width: 300px;
+}
 /* Hero Section */
 
 #Hero-Section {
@@ -11,8 +14,11 @@ body {
   background-position: left;
 }
 
-/* Mis trabajos */
+#Acerca-de-mi h2, h3{
+  color: #d83b94;
+}
 
+/* Mis trabajos */
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -20,11 +26,17 @@ body {
   background-position: center;
 }
 
-/* Contacto */
+.card-title{
+  color: #d83b94;
+}
 
+/* Contacto */
+#Contacto h2{
+  color: #d83b94;
+}
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #d83b94;
 }
 
 @media (max-width: 768px) {
@@ -35,5 +47,6 @@ body {
   .navbar-brand{
     width: 100px;
   }
+
 
 }
